@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        High Low Game! - Medium
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+    <link rel="stylesheet" href="medium.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="divdiv">
+        <header>
+            <div class="headercontainer">
+                <img src="header.png" height="150px" width="100%"></img>
+                <div class="textcentered">Welcome To The <br> MONSTER GAME CENTER!</div>
+            </div>
+            <!--<img src="header.png" height="150px" width="100%"></img>-->
+        </header>
+        <center>
+            <div class="btn-group" style="text-align:center">
+                <a style="text-decoration: none;" href="easy.html"> <button1>Easy</button1></a>
+                <a style="text-decoration: none;" href="medium.html"> <button2>Medium</button2></a>
+                <a style="text-decoration: none;" href="hard.html"> <button3>Hard</button3></a>
+            </div>
+        </center>
+        <div id="div1">
+            <div class="row">
+                <span class="col-lg-3 col-md-3">
+                <img src="meddevil1.png" height="250" width="250"></img>            
+            </span>
+                <span class="col-lg-6 col-md-6">
+                <h1 class="title">High Low Game!</h1>
+                <p class="directions">Enter a number from 1 to 500</p>
+                <p id="statusArea"></p>
+                <input type="number" id="userGuess">
+                <br> <br> <button type="button" class="btn btn-primary" id="buttonArea">Guess</button>
+                <h2 id="result"></h2>
+                <div id="historyArea">
+                    <h2>Your Guesses</h2>
+                    <ol style="list-style: none;" id="historyList">
+                    </ol>
+                </div>
+            </span>
+                <span class="col-lg-3 col-md-3 devil2">
+                <img src="meddevil2.png" height="250" width="305"></img>            
+            </span>
+            </div>
+        </div>
+        <footer>
+            <div class="footercontainer">
+                <img src="footer.png" height="150px" width="100%"></img>
+                <div class="texttop-left">
+                    CONTACT
+                    <br> Phone: 917-MON-STER
+                    <br> Email: MonsterGameCenter@gmail.com
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="medium.js"></script>
+</body>
+
+</html>

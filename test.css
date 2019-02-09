@@ -1,0 +1,255 @@
+* {
+    background-color: gray;
+}
+
+#div1 {
+    text-align: center;
+    margin: 100px;
+
+}
+
+
+
+#buttonArea {
+    background: #0010F6;
+    background-image: -webkit-linear-gradient(top, #0010F6, #7F6ED0);
+    background-image: -moz-linear-gradient(top, #0010F6, #7F6ED0);
+    background-image: -ms-linear-gradient(top, #0010F6, #7F6ED0);
+    background-image: -o-linear-gradient(top, #0010F6, #7F6ED0);
+    background-image: linear-gradient(to bottom, #0010F6, #7F6ED0);
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: normal;
+    border: solid #080001 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 130px;
+    height: 45px;
+}
+
+.buttonArea:hover {
+    background: #5E06D0;
+    background-image: -webkit-linear-gradient(top, #5E06D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #5E06D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #5E06D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #5E06D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #5E06D0, #3D94F6);
+    text-decoration: none;
+}
+
+
+
+#historyArea {
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.directions {
+    font-family: futura;
+    font-weight: bold;
+
+
+}
+
+.title {
+
+    font-family: futura;
+    font-style: italic;
+    width: 100%;
+
+
+
+    color: #313131;
+    font-size: 45px;
+    font-weight: bold;
+
+    -webkit-animation: colorchange 8s infinite alternate;
+
+
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+
+        color: #FFFF00;
+    }
+
+    20% {
+
+        color: #23a332;
+    }
+
+    40% {
+
+        color: #FFFF00;
+    }
+
+    60% {
+
+        color: #23a332;
+    }
+
+    80% {
+
+        color: #FFFF00;
+    }
+    100% {
+
+        color: #23a332;
+    }
+}
+
+
+
+
+/*.btn-group {*/
+
+/*    margin-top: 50px;*/
+
+/*}*/
+
+button1 {
+    background-color: blue;
+
+    border: 1px solid black;
+
+    color: white;
+    font-weight: 200;
+    padding: 20px 50px;
+    cursor: pointer;
+    background: #F6F602;
+    background-image: -webkit-linear-gradient(top, #F6F602, #67B500);
+    background-image: -moz-linear-gradient(top, #F6F602, #67B500);
+    background-image: -ms-linear-gradient(top, #F6F602, #67B500);
+    background-image: -o-linear-gradient(top, #F6F602, #67B500);
+    background-image: linear-gradient(to bottom, #F6F602, #67B500);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: Open Sans;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+
+}
+
+
+
+.buttons button:not(:last-child) {
+    border-right: none;
+
+}
+
+
+.buttons:after {
+    content: "";
+    clear: both;
+    display: block;
+
+
+}
+
+/* Add a background color on hover */
+
+button2 {
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    padding: 20px 50px;
+    cursor: pointer;
+    background: #FF0303;
+    background-image: -webkit-linear-gradient(top, #FF0303, #FCC221);
+    background-image: -moz-linear-gradient(top, #FF0303, #FCC221);
+    background-image: -ms-linear-gradient(top, #FF0303, #FCC221);
+    background-image: -o-linear-gradient(top, #FF0303, #FCC221);
+    background-image: linear-gradient(to bottom, #FF0303, #FCC221);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+
+button3 {
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    padding: 20px 50px;
+    cursor: pointer;
+    background: #7C09E0;
+    background-image: -webkit-linear-gradient(top, #7C09E0, #F088FC);
+    background-image: -moz-linear-gradient(top, #7C09E0, #F088FC);
+    background-image: -ms-linear-gradient(top, #7C09E0, #F088FC);
+    background-image: -o-linear-gradient(top, #7C09E0, #F088FC);
+    background-image: linear-gradient(to bottom, #7C09E0, #F088FC);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+figure {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    perspective: 500px;
+    -webkit-perspective: 500px;
+}
+
+figure div {
+    height: 100%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+}
+
+figure:hover div {
+    transform: rotateX(-90deg);
+}
+
+span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 50px;
+    font-size: 17pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span:nth-child(1) {
+    color: #fff;
+    transform: translate3d(0, 0, 30px);
+    -webkit-transform: translate3d(0, 0, 30px);
+}
+
+span:nth-child(2) {
+    color: #562928;
+    background: #fff;
+    transform: rotateX(90deg) translate3d(0, 0, 30px);
+    -webkit-transform: rotateX(90deg) translate3d(0, 0, 30px);
+}
+
+body {
+    background: #562928;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    margin: 0;
+}
